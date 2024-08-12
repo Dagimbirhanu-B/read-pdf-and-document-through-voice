@@ -1,4 +1,5 @@
 PDF and Word Document Reader through Voice
+
 Overview
 This Python project allows users to read PDF and Word documents aloud using a text-to-speech engine. Users can specify the page number from which they want to start reading, and the script will handle the rest.
 
@@ -12,31 +13,27 @@ Python 3.x
 PyMuPDF (fitz)
 python-docx
 pyttsx3
+
+
 Installation
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/Dagimbirhanu-B/read-pdf-and-document-through-voice.git
+
 cd read-pdf-and-document-through-voice
+
 Install Dependencies:
 You can install the required Python libraries using pip:
 
-bash
-Copy code
 pip install -r requirements.txt
-Alternatively, you can install them individually:
 
-bash
-Copy code
+Alternatively, you can install them individually:
 pip install PyMuPDF python-docx pyttsx3
+
 Usage
 Run the Script:
 
-bash
-Copy code
-python reader.py
-Replace reader.py with the actual script name if different.
+python readPdforDoc3.py
+
 
 Choose the Document Type:
 
